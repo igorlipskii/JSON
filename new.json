@@ -1,1 +1,11 @@
-
+{
+	"Name": "Igor Lipskii",
+	"Age": 33,
+	"Pet": "No pets",
+	"Salary": [
+			{"Junior": "80.000 rub"},
+			{"Middle": "190.000 rub"},
+			{"Senior": "280.000 rub"},
+			{"Lead": "350.000+ rub"}
+]
+}
