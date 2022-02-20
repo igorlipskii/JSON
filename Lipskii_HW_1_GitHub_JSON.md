@@ -111,7 +111,7 @@
 > `git add preferences.json skills.json`
 или `git add {preferences,skills}.json`
 
-`git commit -m  "add skills and preferences files"`
+`git commit -m  "add skills and preferences files"`\
 `git push`
 > одной командой `git add {preferences,skills}.json && git commit -m "add 2 files and commit and push" && git push`
 
