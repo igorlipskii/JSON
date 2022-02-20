@@ -10,9 +10,9 @@
                 "Step 4": "Нажать цифру 3",
                 "Step 5": "Нажать знак равно"
                 },
+        "Actual result": 20,
+        "Expected result": 18,
         "Attachments": "https://somup.com/c3nq02TjpH",
-        "Actual result": 18,
-        "Expected result": 20,
         "Severity": "Critical",
         "Priority": "High",
         "Labels": "Smoke",
