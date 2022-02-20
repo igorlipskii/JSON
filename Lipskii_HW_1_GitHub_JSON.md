@@ -152,7 +152,6 @@
 	"Test Data": "20.02.2022"
 }
 ```
-`esc` `:` `wq`
 
 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.\
 пишем в `Commit changes` `update bug_report`
