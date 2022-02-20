@@ -37,7 +37,7 @@
 
 8. Отправить изменения на внешний репозиторий.\
 `git add new.json`\
-`git commit -m  "wrote information about myself`\
+`git commit -m  "wrote information about myself"`\
 `git push`
 
 9. Создать файл preferences.json\
