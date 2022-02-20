@@ -1,25 +1,25 @@
-1. Создать внешний репозиторий c названием JSON.
-+ нажать `+` `New repository`
+1. Создать внешний репозиторий c названием JSON.\
+нажать `+` `New repository`
 
-2. Клонировать репозиторий JSON на локальный компьютер.
-+ `cd /Users/igori/Documents/github`
-+ `git clone https://github.com/igorlipskii/json.git`
+2. Клонировать репозиторий JSON на локальный компьютер.\
+`cd /Users/igori/Documents/github`
+`git clone https://github.com/igorlipskii/json.git`
 
-3. Внутри локального JSON создать файл “new.json”.
-+ `touch new.json`
+3. Внутри локального JSON создать файл “new.json”.\
+`touch new.json`
 
-4. Добавить файл под гит.
-+ `git add new.json`
+4. Добавить файл под гит.\
+`git add new.json`
 
-5. Закоммитить файл.
-+ `git commit -m "add new file .json"`
+5. Закоммитить файл.\
+`git commit -m "add new file .json"`
 
-6. Отправить файл на внешний GitHub репозиторий.
-+ `git push`
+6. Отправить файл на внешний GitHub репозиторий.\
+`git push`
 
-7. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
-+ `vim new.json`
-+ `i` — перейти в режим редактирования
+7. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.\
+`vim new.json`
+`i` — перейти в режим редактирования
 
 ```json
 {
@@ -33,19 +33,19 @@
 		}
 }
 ```
-+ `esc` `:` `wq`
+`esc` `:` `wq`
 
-8. Отправить изменения на внешний репозиторий.
-+ `git add new.json`
-+ `git commit -m  "wrote information about myself`
-+ `git push`
+8. Отправить изменения на внешний репозиторий.\
+`git add new.json`
+`git commit -m  "wrote information about myself`
+`git push`
 
-9. Создать файл preferences.json
-+ `touch preferences.json`
+9. Создать файл preferences.json\
+`touch preferences.json`
 
-10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
-+ `vim new.json`
-+ `i` — перейти в режим редактирования
+10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.\
+`vim new.json`
+`i` — перейти в режим редактирования
 
 ```json
 {
@@ -66,11 +66,12 @@
 	}
 }
 ```
-+ `esc` `:` `wq`
+`esc` `:` `wq`
 
-11. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
-+ `vim new.json`
-+ `i` — перейти в режим редактирования
+11. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON\
+`vim new.json`
+`i` — перейти в режим редактирования
+
 ```json
 {               
         "Skills": {
@@ -104,24 +105,24 @@
                 }
 }
 ```
-+ `esc` `:` `wq`
+`esc` `:` `wq`
 
-12. Отправить сразу 2 файла на внешний репозиторий.
-+ > `git add preferences.json skills.json`
+12. Отправить сразу 2 файла на внешний репозиторий.\
+> `git add preferences.json skills.json`
 или `git add {preferences,skills}.json`
 
-+ `git commit -m  "add skills and preferences files"`
-+ `git push`
-+ > одной командой `git add {preferences,skills}.json && git commit -m "add 2 files and commit and push" && git push`
+`git commit -m  "add skills and preferences files"`
+`git push`
+> одной командой `git add {preferences,skills}.json && git commit -m "add 2 files and commit and push" && git push`
 
-13. На веб интерфейсе создать файл bug_report.json.
-+ нажать `add new file` `create new file` пишем название файла
+13. На веб интерфейсе создать файл bug_report.json.\
+нажать `add new file` `create new file` пишем название файла
 
-14. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-+ в `commit new file` пишем `create bug_report.json`
+14. Сделать Commit changes (сохранить) изменения на веб интерфейсе.\
+в `commit new file` пишем `create bug_report.json`
 
-15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
-+ нажать `edit this file`
+15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.\
+нажать `edit this file`
 
 ```json
 {
@@ -150,10 +151,10 @@
 	"Test Data": "20.02.2022"
 }
 ```
-+ `esc` `:` `wq`
+`esc` `:` `wq`
 
-16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-+ пишем в `Commit changes` `update bug_report`
+16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.\
+пишем в `Commit changes` `update bug_report`
 
-17. Синхронизировать внешний и локальный репозиторий JSON
-+ `git pull`
+17. Синхронизировать внешний и локальный репозиторий JSON\
+`git pull`
